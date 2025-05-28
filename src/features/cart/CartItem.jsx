@@ -10,7 +10,7 @@ function CartItem({ item }) {
 
   return (
     <li className="flex items-center justify-between py-3">
-      <div className="flex flex-col items-center gap-4 md:flex-row">
+      <div className="flex flex-col items-start gap-4 md:flex-row">
         <p className="mb-1 sm:mb-0">
           {quantity}&times; {name}
         </p>
