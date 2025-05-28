@@ -1,5 +1,5 @@
 // Test ID: IIDSAT
-
+/* eslint-disable react-refresh/only-export-components */
 import { useFetcher, useLoaderData } from "react-router-dom";
 import { getOrder } from "../../services/apiRestaurant";
 import {
